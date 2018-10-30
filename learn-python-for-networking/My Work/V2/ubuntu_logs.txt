@@ -1,0 +1,21 @@
+root@UbuntuDockerGuest-1:~# history 
+    1  ls 
+    2  ifconfig 
+    9  nano  /etc/network/interfaces
+   13  cat interfaces 
+   14  ifconfig 
+
+   22  ifconfig 
+   23  ping www.google.com
+
+   26  apt-get update
+   27  apt-get install python 
+   28  python 
+
+   29  touch pythonR1script1.py
+   30  nano pythonR1script1.py 
+ 
+   33  cat pythonR1script1.py 
+
+   35  python pythonR1script1.py 
+   36  history 

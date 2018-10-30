@@ -1,0 +1,106 @@
+R1#sh history 
+
+**************************************************************************
+Router#
+Router#
+Router#
+Router#config t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#host R1
+R1(config)#enable password cisco
+R1(config)#user
+R1(config)#user
+R1(config)#usern
+R1(config)#username dushyant password cisco
+R1(config)#lo
+R1(config)#li
+R1(config)#lin
+R1(config)#line vt
+R1(config)#line vty 0 4 
+R1(config-line)#log
+R1(config-line)#log
+R1(config-line)#log
+R1(config-line)#log
+R1(config-line)#log
+R1(config-line)#log
+R1(config-line)#logi
+R1(config-line)#login 
+R1(config-line)#login lo
+R1(config-line)#login local 
+R1(config-line)#login local 
+R1(config-line)#tr
+R1(config-line)#transport i
+R1(config-line)#transport input a
+R1(config-line)#transport input all 
+R1(config-line)#int g0/0
+R1(config-if)#ip add
+R1(config-if)#ip address dhcp
+R1(config-if)#no shut
+R1(config-if)#no shutdown 
+R1(config-if)#end
+R1#
+*Oct 30 09:18:32.969: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
+R1#
+*Oct 30 09:18:32.986: %SYS-5-CONFIG_I: Configured from console by console
+*Oct 30 09:18:33.968: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+R1#sh ip i
+*Oct 30 09:18:47.387: %DHCP-6-ADDRESS_ASSIGN: Interface GigabitEthernet0/0 assigned DHCP address 192.168.248.130, mask 255.255.255.0, hostname R1
+n 
+R1#sh ip in br
+% Ambiguous command:  "sh ip in br"
+R1#sh ip int br
+Interface                  IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0         192.168.248.130 YES DHCP   up                    up      
+GigabitEthernet0/1         unassigned      YES unset  administratively down down    
+GigabitEthernet0/2         unassigned      YES unset  administratively down down    
+GigabitEthernet0/3         unassigned      YES unset  administratively down down    
+R1#telne
+R1#telnet 192.168.248.130
+Trying 192.168.248.130 ... Open
+
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************
+
+User Access Verification
+
+Username: dushyant
+Password: 
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************
+R1>
+R1>
+R1>
+R1>
+R1>sh ip int br 
+Interface                  IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0         192.168.248.130 YES DHCP   up                    up      
+GigabitEthernet0/1         unassigned      YES unset  administratively down down    
+GigabitEthernet0/2         unassigned      YES unset  administratively down down    
+GigabitEthernet0/3         unassigned      YES unset  administratively down down    
+R1>exit 
+
+[Connection to 192.168.248.130 closed by foreign host]
+R1#
+R1#
+
+  config t
+  sh ip in br
+  sh ip int br
+  telnet 192.168.248.130
+  sh ip int br 
+  debug telnet
+  sh ip int br 
+  history 
+  sh history 
