@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Simple. by Sara (saratusar.com, @saratusar) for Innovatif - an awesome Slovenia-based digital agency (innovatif.com/en)
+Change it, enhance it and most importantly enjoy it!
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+-->
+
+<!--[if !IE]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<!--[if IE 6 ]><html lang="en-US" class="ie ie6"><![endif]-->
+<!--[if IE 7 ]><html lang="en-US" class="ie ie7"><![endif]-->
+<!--[if IE 8 ]><html lang="en-US" class="ie ie8"><![endif]-->
+<head>
+	<base href="http://ngn.cs.colorado.edu/"><!--[if lte IE 6]></base><![endif]-->
+	<title>Home &raquo; Next Generation Networks Group</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="generator" content="SilverStripe - http://silverstripe.org" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	
+	
+	
+	<link rel="shortcut icon" href="themes/simple/images/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="/themes/simple/css/reset.css?m=1410813907" />
+<link rel="stylesheet" type="text/css" href="/themes/simple/css/typography.css?m=1410815040" />
+<link rel="stylesheet" type="text/css" href="/themes/simple/css/form.css?m=1410813907" />
+<link rel="stylesheet" type="text/css" href="/themes/simple/css/layout.css?m=1410813907" />
+</head>
+<body class="HomePage no-sidebar" dir="ltr">
+<header class="header" role="banner">
+	<div class="inner">
+		<div class="unit size4of4 lastUnit">
+			<a href="http://ngn.cs.colorado.edu/" class="brand" rel="home">
+				<h1>Next Generation Networks Group</h1>
+				
+				<p>University of Colorado</p>
+				
+			</a>
+			
+			<nav class="primary">
+	<span class="nav-open-button">²</span>
+	<ul>
+		
+			<li class="current"><a href="/" title="Home">Home</a></li>
+		
+			<li class="link"><a href="/people/" title="People">People</a></li>
+		
+			<li class="link"><a href="/publications/" title="Publications">Publications</a></li>
+		
+			<li class="link"><a href="/about-us/" title="About Us">About Us</a></li>
+		
+	</ul>
+</nav>
+
+		</div>
+	</div>
+</header>
+
+<div class="main" role="main">
+	<div class="inner typography line">
+		<aside class="sidebar unit size1of4">
+	
+</aside>
+
+<div class="content-container unit size3of4 lastUnit">
+	<article>
+		<h1>Home</h1>
+		<div class="content"><p>The Next Generation Networks (NGN) Group at the the University of Colorado, led by <a title="Eric Keller&#039;s Homepage" href="http://ngn.cs.colorado.edu/~ekeller">Eric Keller</a> and <a title="Sangtae Ha&#039;s Homepage" href="http://ngn.cs.colorado.edu/~sangtaeha">Sangtae Ha</a>, is researching all things having to do with the networked systems of modern and future infrastructures. We look at the security, reliability, performance, etc. of networked infrastructures such as data centers, enterprises, and even smart grids -- basically anything with a communication network.  </p>
+<p>If you are interested in working with us, please see the About Us page to learn more about the group.</p>
+<p>News:</p>
+<ul><li>(04/11/2015) Sangtae's paper has been accepted to IEEE/ACM IWQoS (20 out of 89 = 22.5% acceptance rate)</li>
+<li>(04/07/2015) Sangtae's paper on SDP is accepted to Communications of ACM.</li>
+<li>(03/23/2015) Kyuyong and Sangtae's paper has been accepted to IEEE ICDCS 2015 (70 out of 543 = 12.89% acceptance rate)</li>
+<li>(02/13/2015) <a href="http://www.zoomiinc.com">Zoomi</a>, the successor of Doceoware that Sangtae co-founded in 2012, <a href="http://technical.ly/philly/2015/02/13/zoomi-jim-walker-education-software/">recently raised 4.4M</a></li>
+<li>(01/22/2015) Sangtae will co-chair <a href="http://secon2015.ieee-secon.org/workshops/fog-networking-5g-and-iot-workshop">the SECON workshop on Fog Networking for 5G and IoT</a></li>
+<li>(01/20/2015) Sangtae's paper is accepted to EuroSys 2015 (32 out of 150 = 21.33% acceptance rate).</li>
+<li>(12/18/2014) Sangtae and his colleagues were awarded the INFORMS ISS Design Science Award 2014.</li>
+<li>(12/10/2014) Sangtae will be a guest editor for IEEE Network Magazine special issue on Smart Data Pricing. Please consider submitting your article to <a title="IEEE Network Magazine special issue on SDP" href="http://www.comsoc.org/files/Publications/Magazines/ni/cfp/cfpnetwork0316.html">this issue</a>. Manuscript deadline is Aug. 1, 2015.</li>
+<li>(11/28/2014) Sangtae's paper is accepted to Passive and Active Measurement (PAM) Conference 2015 (27 out of 100 = 27% acceptance rate).</li>
+<li>(11/17/2014) Two papers on SDP are accepted to IEEE INFOCOM 2015.</li>
+<li>(11/10/2014) Sangtae's paper is accepted to Transactions on Learning Technologies.</li>
+<li>(10/23/2014) <a href="http://www.forbes.com/sites/georgeanders/2014/10/23/start-ups-to-watch-datami-transforms-wireless-internet-bills/">This</a> Forbes article discusses DataMi, a startup Sangtae co-founded, as one of startups to watch.</li>
+<li>(9/19/2014) Matt and Eric's paper is accepted at <a href="https://sites.google.com/site/2014socc/">ACM SoCC 2014</a> -- "Transparent, Live Migration of a Software-Defined Network."  </li>
+<li>(9/17/2014) IEEE ComSoc Technology News has published <a title="ComSoc CTN SDP special issue" href="http://www.comsoc.org/ctn/ieee-comsoc-ctn-special-issue-smart-data-pricing">a special issue</a> on our research efforts in "Smart Data Pricing".</li>
+<li>(9/15/2014) Sangtae's book "Smart Data Pricing" is now available.  It can be purchased on <a href="http://www.amazon.com/Pricing-Information-Communication-Technology-Series/dp/1118611667">Amazon</a>.</li>
+<li>(9/9/2014) OSDI poster accepted titled "Mobile Applications with Reconfigurable Hardware". Congrats Mike and Ali.</li>
+<li>(9/1/2014) <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1406192">Active Security</a> awarded by the NSF  </li>
+<li>(8/25/2014) New school year -- Eric is teaching <a href="http://ecee.colorado.edu/~ekeller/classes/fall2014_advsec/index.html">Advanced Computer and Network System Security</a>, Sangtae is teaching <a href="~sangtaeha/tlen5330/index.html">Data Communications 1</a>.</li>
+<li>(8/25/2014) Welcome to <a href="~sangtaeha">Sangtae Ha</a>, joining us from NC State by way of Princeton (post-doc) and a year at DataMi which he co-founded.</li>
+</ul><p> </p></div>
+	</article>
+		
+		
+</div>
+	</div>
+</div>
+<footer class="footer" role="contentinfo">
+	<div class="inner">
+		<div class="unit size4of4 lastUnit">
+			<div class="left">
+				<a href="http://ngn.cs.colorado.edu/" class="brand" rel="home">Next Generation Networks Group</a>
+				<span class="arrow">&rarr;</span> <nav class="primary">
+	<span class="nav-open-button">²</span>
+	<ul>
+		
+			<li class="current"><a href="/" title="Home">Home</a></li>
+		
+			<li class="link"><a href="/people/" title="People">People</a></li>
+		
+			<li class="link"><a href="/publications/" title="Publications">Publications</a></li>
+		
+			<li class="link"><a href="/about-us/" title="About Us">About Us</a></li>
+		
+	</ul>
+</nav>
+</div>
+			<small class="right"><a href="http://simple.innovatif.com/about/">Theme</a> by <a href="http://www.saratusar.com">Sara</a> (Innovatif) / Powered by <a href="http://silverstripe.org">SilverStripe</a></small>
+		</div>
+	</div>
+</footer>
+
+
+
+<script type="text/javascript" src="/framework/thirdparty/jquery/jquery.js?m=1410813892"></script><script type="text/javascript" src="themes/simple/javascript/script.js"></script>
+
+</body>
+</html>

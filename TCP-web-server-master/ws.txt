@@ -1,0 +1,14 @@
+ListenPort 5044
+Documentroot /home/jaimeen/Downloads/tcpserver
+DirectoryIndex	a.html
+KeepaliveTime 10
+ContentType	.html	text/html
+ContentType	.txt	text/plain
+ContentType	.png	image/png
+ContentType	.gif	image/gif
+ContentType	.jpg	image/jpeg
+ContentType	.jpeg	image/jpeg
+ContentType	.css	text/css
+ContentType	.js	application/javascript
+ContentType .woff	font/woff
+ContentType .tff	font/tff
