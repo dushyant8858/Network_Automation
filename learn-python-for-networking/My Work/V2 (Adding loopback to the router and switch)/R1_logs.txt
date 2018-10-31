@@ -1,6 +1,42 @@
 R1#sh history 
 
 **************************************************************************
+config t 
+
+hostname R1
+
+enable password cisco
+
+username dushyant password cisco
+
+interface intg0/0
+ ip address 192.168.248.30 255.255.255.252
+
+line vty 0 4
+ login local
+ transport input all
+
+end 
+
+
+  sh ip in br
+  sh ip int br
+  telnet 192.168.248.130
+  sh ip int br 
+  debug telnet
+  sh ip int br 
+  history 
+  sh history 
+
+
+
+
+
+
+
+R1#sh history 
+
+**************************************************************************
 Router#
 Router#
 Router#
@@ -96,6 +132,37 @@ R1#
 R1#
 
   config t
+
+
+
+
+
+
+
+
+
+
+R1#sh history 
+
+**************************************************************************
+config t 
+
+hostname R1
+
+enable password cisco
+
+username dushyant password cisco
+
+interface intg0/0
+ ip address 192.168.248.30 255.255.255.252
+
+line vty 0 4
+ login local
+ transport input all
+
+end 
+
+
   sh ip in br
   sh ip int br
   telnet 192.168.248.130

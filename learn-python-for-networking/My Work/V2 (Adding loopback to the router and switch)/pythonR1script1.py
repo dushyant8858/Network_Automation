@@ -1,12 +1,12 @@
 # root@UbuntuDockerGuest-1:~# cat pythonR1script1.py 
 
-
+#!/usr/bin/evn python
 
 import getpass
 import sys
 import telnetlib
 
-HOST = "192.168.248.130"
+HOST = "192.168.248.128"
 user = raw_input("Enter your telnet username: ")
 password = getpass.getpass()
 

@@ -16,6 +16,20 @@ root@UbuntuDockerGuest-1:~# history
    30  nano pythonR1script1.py 
  
    33  cat pythonR1script1.py 
-
+       
    35  python pythonR1script1.py 
    36  history 
+
+
+
+   49  touch pythonS1script1.py 
+   50  nano pythonS1script1.py 
+   51  python pythonS1script1.py 
+
+       chmod +x ./pythonR1script1.py
+       chmod +x ./pythonS1script1.py
+
+
+
+
+
