@@ -1,4 +1,3 @@
-
 #!/usr/bin/evn python
 
 import getpass
@@ -11,11 +10,12 @@ password = getpass.getpass()
 
 
 
-for n in range (161,166):
+f = open("ipTableOfSwitch")
 
-    HOST = "192.168.122." + str(n)
+for line in f:
+    print("******** Configuring the " + str(line).strip() + " Switch ********")
 
-
+    HOST = line
     tn = telnetlib.Telnet(HOST)
 
     tn.read_until("Username: ")
@@ -30,11 +30,10 @@ for n in range (161,166):
     tn.write("config t\n")
 
 
-    for n in range (2,3):
+    for n in range (2,4):
     
         tn.write("vlan " + str(n) + "\n")
         tn.write("name Python_vlan_" + str(n) + "\n")
-
 
     tn.write("end\n")
     tn.write("wr\n")
