@@ -1,0 +1,19 @@
+en 
+
+config t 
+
+hostname S1
+
+enable password cisco
+
+username dushyant password cisco
+
+interface Vlan1
+ no sh
+ ip address 192.168.122.8 255.255.255.0
+
+line vty 0 4
+ login local
+ transport input all
+
+end 
