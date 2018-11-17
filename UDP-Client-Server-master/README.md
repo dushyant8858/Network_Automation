@@ -1,3 +1,5 @@
+# README:
+
 Programming environment : Python 2.7
 
 Operation of Server:
@@ -36,4 +38,5 @@ $ python client.py 127.0.0.1 6000
 
 
 Client and Server: 
+
 Read README.docx
