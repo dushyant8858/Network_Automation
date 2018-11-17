@@ -1,0 +1,2 @@
+# python
+ Automated the configuration of the multiple networks devices in the GNS3 network topology which consists of multiple switches, routers and VMs using python scripts and tools such as the telnet library, Paramiko, Netmiko and NAPALM
