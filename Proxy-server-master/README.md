@@ -1,14 +1,19 @@
 # README:
 
 Name: Programming Assignment 3
-Purpose: A proxy server with Caching
-Date: 8 Nov 2017
-Python version: 2.7.14
 
+Purpose: A proxy server with Caching
+
+Date: 8 Nov 2017
+
+Python version: 2.7.14
+ 
 To run the code:
 
 $ cd Downloads/proxy/
+
 $ python v21.py 8080 100
+
 
 The program must get either one or two command line arguments. The first argument is the port no. It must be between 1025 and 65535. The second argument is default timer. It is expressed in seconds. 
 
