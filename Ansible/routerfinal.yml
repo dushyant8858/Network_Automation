@@ -1,0 +1,53 @@
+---
+- name: Manage GNS3 devices
+  hosts: Routers
+  gather_facts: false
+  connection: local
+
+  vars:
+    cli:
+      username: dev
+      password: cisco
+
+  tasks:
+    - name: enable ospf
+      ios_config:
+        provider: "{{ cli }}"
+        authorize: yes
+        parents: router ospf 1
+        lines:
+          - network 0.0.0.0 255.255.255.255 area 0
+
+    - name: ACL - ACL-IN
+      ios_config:
+        provider: "{{ cli }}"
+        authorize: yes
+        parents: ["ip access-list extended ACL-IN"]
+        commands:
+          - permit tcp any any eq 22
+          - permit tcp any any eq www
+          - permit udp any any eq snmp
+        match: exact
+        replace: block
+        before:
+          - interface FastEthernet0/1
+          - no ip access-group ACL-IN in
+          - no ip access-list extended ACL-IN
+        after:
+          - interface GigabitEthernet0/1
+          - ip access-group ACL-IN in
+    - name: Show protocols
+      ios_command:
+        provider: "{{ cli }}"
+        authorize: yes
+        commands: show ip protocols
+      register: show_protocol
+    - name: Show accesslist
+      ios_command:
+        provider: "{{ cli }}"
+        authorize: yes
+        commands: show ip access-list
+      register: show_accesslist
+
+    - debug: var=show_accesslist.stdout_lines
+    - debug: var=show_protocol.stdout_lines

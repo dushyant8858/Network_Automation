@@ -1,0 +1,20 @@
+---
+- hosts: VM
+  tasks:
+    - name: Install nginx
+      apt: name=nginx state=latest
+    - name: Install Mariadb
+      apt: name=mariadb-server state=latest
+    - name: Install tree
+      apt: name=tree state=latest
+    - name: Install initscripts
+      apt: name=init state=latest
+    - name: Upgrade
+      apt: upgrade=yes
+    - name: Install HTTPD on Ubuntu
+      apt: name=apache2 update_cache=yes state=latest
+    - name: Create a data container
+      docker_container:
+        name: test
+        image: "ubuntu:latest"
+        state: present
